@@ -11,7 +11,7 @@ var hotels = {
     LaEradeAracena: {
         name: "La Era de Aracena",
         location: "Huelva",
-        img: "https://era-de-aracena.hotelmix.es/data/Photos/r1833x621/13147/1314727/1314727585/Hotel-La-Era-De-Aracena-Adults-Only-Exterior.JPEG", 
+        img: "https://era-de-aracena.hotelmix.es/data/Photos/r1833x621/13147/1314727/1314727585/Hotel-La-Era-De-Aracena-Adults-Only-Exterior.JPEG",
     },
     UrbanDreamGranada: {
         name: "Urban Dream Granada",
@@ -30,16 +30,16 @@ document.getElementById("img-hotel").src = hotels[selectedhotel].img;
 //document.getElementById("rating").innerHTML = rating + "estrellas";
 
 var stars = {
-    una: 
-    "<span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
+    una:
+        "<span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
     dos:
-    "<span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
+        "<span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
     tres:
-    "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>",
+        "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>",
     cuatro:
-    "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>",
+        "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>",
     cinco:
-    "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>",
+        "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>",
 };
 //rating//
 var rating = prompt("Puntuación: una, dos, tres, cuatro o cinco estrellas?");
